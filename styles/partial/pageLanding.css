@@ -1,0 +1,122 @@
+#pageLanding{
+    background-color: var(--color-primary);
+}
+
+#pageLanding #container{
+    color: var(--color-text-in-primary);
+}
+.logoContainer img{
+    height: 8rem;
+}
+.logoContainer{
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+.logoContainer h2{
+    font-weight: 500;
+    font-size: 3.6rem;
+    line-height: 4.6rem;
+    margin-top: 0.8rem;
+}
+.heroImage {
+    width: 100%;
+}
+.buttonsContainer{
+    display: flex;
+    justify-content: center;
+    margin: 3.2rem 0;
+}
+.buttonsContainer a{
+    width: 30rem;
+    height: 10.4rem;
+    
+    border-radius: 0.8rem;
+    margin-right: 1.6rem;
+    
+    font: 700 2.4rem Archivo;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-decoration: none;
+
+    transition: background 0.2s;
+
+    color: var(--color-button-text)
+}
+.buttonsContainer a img{
+    width: 4rem;
+    margin-right: 2.4rem;
+}
+
+.buttonsContainer a.study{
+    background-color: var(--color-primary-lighter);
+}
+.buttonsContainer a.study:hover{
+    background-color: var(--color-primary-light);
+}
+
+.buttonsContainer a.giveClasses{
+    background-color: var(--color-secondary);
+    margin-right: 0rem;
+}
+
+.buttonsContainer a.giveClasses:hover{
+    background-color: var(--color-secondary-dark);
+}
+
+.totalConnections{
+    font-size: 1.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.totalConnections img{
+    margin-left: 0.8rem;
+}
+@media(max-width:699px){
+    :root{
+        font-size: 40%;
+    }
+}
+@media (min-width: 1100px) {
+    #pageLanding #container {
+        max-width: 1100px;
+        display: grid;
+        grid-template-columns: 2fr 1fr 2fr;
+        grid-template-rows: 250px 1fr;
+        grid-template-areas: 
+        "proffy image image"
+        "button button texting";
+        gap:60px;
+        column-gap: 87px;
+        row-gap: 86px;
+    }
+    .logoContainer{
+        grid-area: proffy;
+        text-align: initial;
+        align-self: center;
+        margin: 0;
+    }
+    .logoContainer img{
+        height: 127px;
+    }
+    .heroImage{
+        grid-area: image;
+        height: 350px;
+    }
+    .buttonsContainer{
+        grid-area: button;
+        justify-content: flex-start;
+        margin: 0;
+    }
+    .totalConnections{
+        grid-area: texting;
+        font-size: 1.2rem;
+    }
+
+}
+
