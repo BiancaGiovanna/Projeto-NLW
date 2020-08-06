@@ -1,6 +1,12 @@
 #pageLanding{
     background-color: var(--color-primary);
 }
+#container{
+    width: 100vw;
+    height: 300px;
+    padding: 40px;
+    margin: 60px;
+}
 
 #pageLanding #container{
     color: var(--color-text-in-primary);

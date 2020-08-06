@@ -1,6 +1,6 @@
 #pageStudy #container{
-    width: 5000vw;
-    height: 90vh;
+    width: 100vw;
+    height: 80vh;
 }
 .pageHeader{
     background-color: var(--color-primary);
@@ -9,9 +9,11 @@
     flex-direction: column;
 }
 .pageHeader .topBarContainer{
-    width: 90%;
+    width: 100%;
+    
     margin: 0 auto;
     
+    padding-left: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,11 +26,14 @@
     opacity: 0.6;
 }
 .pageHeader .topBarContainer img{
-    height: 1.6rem;
+    height: 2.6rem;
+    padding-right: 1rem;
 }
 .pageHeader .headerContent {
     width: 90%;
     margin: 3.2rem auto;
+
+    position: relative;
 
 }
 
@@ -140,7 +145,7 @@
     margin-top: .4rem;
 }
 
-.teacherItem p{
+.teacherItem > p{
     padding: 0.2rem;
     font-size: 1.6rem;
     line-height: 2.8rem;
@@ -163,5 +168,93 @@
 
 .teacherItem footer p strong{
     font-size: 1.6rem;
-    color: var;
+    color: var(--color-primary);
+    display: block;
+}
+.teacherItem footer button{
+    width: 20rem;
+    height: 5.6rem;
+    background-color: var(--color-secondary);
+    color: var(--color-button-text);
+    border: 0;
+    border-radius: .8rem;
+    cursor: pointer;
+    font: 700 1.4rem Archivo;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    text-decoration: none;
+    
+    transition:  background 0.2;
+    margin-left: 1.6rem;
+}
+.teacherItem footer button:hover{
+    background-color: var(--color-secondary-dark);
+}
+#container .teacherItem{
+    padding: 20px; 
+    margin: 10px;
+}
+@media (min-width: 700px) {
+    #pageStudy #container{
+        width: 100vw;
+    }
+    .pageHeader{
+        height: 340px;
+    }
+    .pageHeader .topBarContainer{
+        max-width: 1100px;
+
+    }
+    .pageHeader .headerContent{
+        max-width: 740px;
+
+        margin: 0 auto;
+
+        flex: 1 1 ;
+        padding-bottom: 48px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .pageHeader .headerContent strong{
+        max-width: 350px;
+    }
+    .teacherItem header,
+    .teacherItem footer {
+        padding: 32px;
+    }
+    #searchTeachers{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        position: absolute;
+        bottom: -28px;
+    }
+    #pageStudy main{
+        padding: 32px 0;
+        max-width: 740px;
+        margin: 0 auto;
+    }
+    #searchTeachers .selectBlock{
+        margin-bottom: 0;
+    }
+    .teacherItem > p {
+        padding: 0 32px;
+    }
+    .teacherItem footer p strong{
+        display: initial;
+        margin-left: 16px;
+    }
+
+    .teacherItem footer button{
+        width: 245px;
+        font-size: 16px;
+        justify-content: center;
+    }
+    .teacherItem footer button img {
+        margin-right: 16px;
+    }
 }
