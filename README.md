@@ -9,12 +9,12 @@
 <!-- Indice-->
 <p align="center">
  <a href="#Sobre o projeto">Sobre</a> •
- <a href="#-Funcionalidades">Funcionalidades</a> • 
- <a href="#-preview">Preview</a> • 
- <a href="#-Layout">Layout</a> •  
- <a href="#-como-executar-o-projeto">Executando</a> • 
- <a href="#-tecnologias">Tecnologias</a> • 
- <a href="#-licença">Licença</a>
+ <a href="#Funcionalidades">Funcionalidades</a> • 
+ <a href="#Preview">Preview</a> • 
+ <a href="#Layout">Layout</a> •  
+ <a href="#Como executar o projeto">Executando</a> • 
+ <a href="#Tecnologias">Tecnologias</a> • 
+ <a href="#Licença">Licença</a>
 </p>
 
 <!--Sobre o projeto-->
@@ -121,7 +121,9 @@ As seguintes ferramentas foram usadas na construção do projeto:
 #### **Back-end**
 
 -   **SQLite**
--   **Npm**
+-   **NPM**
+-   **Nunjucks**
+-   **Express**
 
 
 #### **Utilitários**
