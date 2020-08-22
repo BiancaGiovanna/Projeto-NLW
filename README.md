@@ -8,17 +8,17 @@
 
 <!-- Indice-->
 <p align="center">
- <a href="#Sobre o projeto">Sobre</a> •
+ <a href="#Sobreoprojeto">Sobre</a> •
  <a href="#Funcionalidades">Funcionalidades</a> • 
  <a href="#Preview">Preview</a> • 
  <a href="#Layout">Layout</a> •  
- <a href="#Como executar o projeto">Executando</a> • 
+ <a href="#Comoexecutaroprojeto">Executando</a> • 
  <a href="#Tecnologias">Tecnologias</a> • 
  <a href="#Licença">Licença</a>
 </p>
 
 <!--Sobre o projeto-->
-## 💻 Sobre o projeto
+## 💻Sobre o projeto
 
 O projeto foi desenvolvido durante a **NLW #2- Next Level Week 2** oferecida pela [Rocketseat](https://nextlevelweek.com), que é uma experiência online com muito conteúdo prático, desafios e hacks onde as aulas em vídeo ficam  disponíveis durante uma semana, um prazo curto que necessita de muito empenho e dedicação.
 
@@ -29,7 +29,7 @@ Através dele tive meu primeiro contato com o ReactJs e ReactNative, além de ap
 ---
 
 <!--Funcionalidades do projeto-->
-## ⚙️ Funcionalidades
+## ⚙️Funcionalidades
 
 - Professores podem se cadastrar na plataforma através de um formulário no qual preenchem seus dados:
   - [x] Nome completo;
@@ -57,9 +57,9 @@ Através dele tive meu primeiro contato com o ReactJs e ReactNative, além de ap
 </h1>
 
 <!--Layout session-->
-## 🎨 Layout
+## 🎨Layout
 
-### 📱 Versão Mobile
+### 📱Versão Mobile
 <p align="center">
    <img src="/github/Conjunto-Mobile.png" alt="Proffy" />
 </p>
@@ -74,7 +74,7 @@ Através dele tive meu primeiro contato com o ReactJs e ReactNative, além de ap
 ---
 
 <!--Running session-->
-## 🚀 Como executar o projeto
+## 🚀Como executar o projeto
 
 Este projeto consiste em três partes:
 1. Mobile
@@ -84,7 +84,7 @@ Este projeto consiste em três partes:
 
 <!--💡Obs-->
 
-#### 🎲 Rodando o projeto
+#### 🎲Rodando o projeto
 
 ```bash
 
@@ -108,7 +108,7 @@ npm run dev
 ---
 
 <!--Tecnologies session-->
-## 🛠 Tecnologias
+## 🛠Tecnologias
 
 As seguintes ferramentas foram usadas na construção do projeto:
 
@@ -134,7 +134,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 
 
 <!--License session-->
-## 📝 Licença
+## 📝Licença
 
 Este projeto está sob a licença MIT.
 
