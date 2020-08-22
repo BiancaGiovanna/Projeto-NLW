@@ -9,7 +9,7 @@
 <!-- Indice-->
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#-funcionalidades">Funcionalidades</a> • 
+ <a href="#-Funcionalidades">Funcionalidades</a> • 
  <a href="#Preview">Preview</a> • 
  <a href="#Layout">Layout</a> •  
  <a href="#-como-executar-o-projeto">Executando</a> • 
@@ -24,7 +24,7 @@ O projeto foi desenvolvido durante a **NLW #2- Next Level Week 2** oferecida pel
 
 O <strong>Proffy</strong> surgiu com a missão de trazer uma homenagem aos educadores do Brasil, através de uma plataforma que conecta alunos e professores de diversas matérias, permitindo que os alunos encontrem professores e entrem em contato. Todo o desenvolvimento foi feito na semana do dia nacional dos profissionais de educação. 
 
-Através dele tive meu primeiro contato com o ReactJs e ReactNative, além de aprimorar meus conhecimentos em com HTML, CSS, SQL e APIs.
+Através dele tive meu primeiro contato com o Node.js, Express e Nunjucks, além de aprimorar meus conhecimentos com HTML5, CSS3, SQLlite e JavaScript.
 
 ---
 
