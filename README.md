@@ -9,16 +9,16 @@
 <!-- Indice-->
 <p align="center">
  <a href="#-sobre-o-projeto">Sobre</a> •
- <a href="#Funcionalidades-do-projeto">Funcionalidades</a> • 
+ <a href="#-funcionalidades">Funcionalidades</a> • 
  <a href="#Preview">Preview</a> • 
  <a href="#Layout">Layout</a> •  
- <a href="#Como executar o projeto">Executando</a> • 
+ <a href="#-como-executar-o-projeto">Executando</a> • 
  <a href="#Tecnologias">Tecnologias</a> • 
  <a href="#Licença">Licença</a>
 </p>
 
 <!--Sobre o projeto-->
-## 💻Sobre o projeto
+## 💻 Sobre o projeto
 
 O projeto foi desenvolvido durante a **NLW #2- Next Level Week 2** oferecida pela [Rocketseat](https://nextlevelweek.com), que é uma experiência online com muito conteúdo prático, desafios e hacks onde as aulas em vídeo ficam  disponíveis durante uma semana, um prazo curto que necessita de muito empenho e dedicação.
 
@@ -74,7 +74,7 @@ Através dele tive meu primeiro contato com o ReactJs e ReactNative, além de ap
 ---
 
 <!--Running session-->
-## 🚀Como executar o projeto
+## 🚀 Como executar o projeto
 
 Este projeto consiste em três partes:
 1. Mobile
