@@ -9,7 +9,7 @@
 <!-- Indice-->
 <p align="center">
  <a href="#Sobre o projeto">Sobre</a> •
- <a href="#Funcionalidades">Funcionalidades</a> • 
+ <a href="#Funcionalidades do projeto">Funcionalidades</a> • 
  <a href="#Preview">Preview</a> • 
  <a href="#Layout">Layout</a> •  
  <a href="#Como executar o projeto">Executando</a> • 
