@@ -12,7 +12,7 @@
  <a href="#Funcionalidades">Funcionalidades</a> • 
  <a href="#Preview">Preview</a> • 
  <a href="#Layout">Layout</a> •  
- <a href="#Comoexecutaroprojeto">Executando</a> • 
+ <a href="#Como executar o projeto">Executando</a> • 
  <a href="#Tecnologias">Tecnologias</a> • 
  <a href="#Licença">Licença</a>
 </p>
@@ -29,7 +29,7 @@ Através dele tive meu primeiro contato com o ReactJs e ReactNative, além de ap
 ---
 
 <!--Funcionalidades do projeto-->
-## ⚙️Funcionalidades
+## ⚙️ Funcionalidades
 
 - Professores podem se cadastrar na plataforma através de um formulário no qual preenchem seus dados:
   - [x] Nome completo;
