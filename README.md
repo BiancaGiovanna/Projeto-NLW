@@ -2,7 +2,7 @@
 <!--Banner e logo-->
 
 <p align="center">
-   <img src="/github/logo.png" alt="Proffy" />
+   <img src="./github/logo.png" alt="Proffy" />
 </p>
 
 
@@ -49,11 +49,11 @@ Através dele tive meu primeiro contato com o Node.js, Express e Nunjucks, além
 ## Preview
 
 <h1 align="center">
-   <img src="/github/Proffy-Web.gif" alt="Proffy versão web" />
+   <img src="./github/proffyPreviwWeb.gif" alt="Proffy versão web" />
 </h1>
 
 <h1 align="center">
-   <img src="/github/Proffy-Mobile.gif" alt="Proffy versão mobile" />
+   <img src="./github/conjuntoMobile.gif" alt="Proffy versão mobile" />
 </h1>
 
 <!--Layout session-->
@@ -61,13 +61,13 @@ Através dele tive meu primeiro contato com o Node.js, Express e Nunjucks, além
 
 ### 📱Versão Mobile
 <p align="center">
-   <img src="/github/Conjunto-Mobile.png" alt="Proffy" />
+   <img src="./github/conjuntoMobile.png" alt="Proffy" />
 </p>
 
 
 ### 🖥 Versão Web
 <p align="center">
-   <img src="/github/Conjunto-Web.png" alt="Proffy" />
+   <img src="./github/conjuntoWeb.png" alt="Proffy" />
 </p>
 
 
